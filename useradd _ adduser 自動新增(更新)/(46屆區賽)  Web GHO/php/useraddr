@@ -1,7 +1,0 @@
-#useraddr()
-#{
-#	useradd -m $@
-#	touch /home/$@/index.html
-#	chmod 777 /home/$@/index.html
-#	echo Home Page is $@ > /home/$@/index.html
-#}
