@@ -1,0 +1,5 @@
+vim useradd.sh 
+
+修改sh檔資料
+
+sh useradd.sh

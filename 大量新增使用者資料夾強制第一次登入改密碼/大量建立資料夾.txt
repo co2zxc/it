@@ -1,0 +1,8 @@
+大量建立資料夾
+
+#!/bin/bash
+for i in 1 2 3 4 5
+do
+mkdir /home/user00$i/www  
+chage -d 0 user0$            強制第一次登入改密碼         
+done

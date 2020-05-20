@@ -1,0 +1,1 @@
+for /L %x IN (1,0,2) DO @ping 8.8.8.8 -n 1 -w 100 -l 1 | findstr TTL

@@ -1,0 +1,27 @@
+
+使用者名稱:使用者密碼:UID:GID:描述:/home/test01:/bin/bash
+
+
+ 建立使用者及群組，為 nofiles 的群組, 因此我們採手動建立.
+
+groupadd nofiles
+
+vi /etc/group
+
+將此行的群組序號改成如下：
+
+nofiles:x:65533:
+
+將以下帳號的群組序號也改成如下：
+
+建立使用者
+
+user001:123456:1001:65533::/home/user001:/bin/bash  
+user002:123456:1001:65533::/home/user001:/bin/bash  
+user003:123456:1001:65533::/home/user001:/bin/bash  
+newusers<user
+
+
+
+
+ 

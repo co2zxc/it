@@ -1,0 +1,9 @@
+﻿先新增XX.sh
+    vim    XX.sh
+vim useradd.sh 
+
+修改sh檔資料
+ sh     XX.sh
+sh useradd.sh   
+
+$ 變數
